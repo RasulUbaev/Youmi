@@ -110,7 +110,11 @@ tailwind.config = {
               },
               height: {
                 '404': '101rem',
-              }
+              },
+
+              backgroundImage: {
+                'bg-round': "url('/images/bground.png')",
+              },
         }
     }
 }
