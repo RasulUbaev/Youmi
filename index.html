@@ -65,11 +65,11 @@
         </div>
       </section>
 
-      <section class="main__tariffs xsm:pt-16">
+      <section class="main__tariffs xsm:pt-16 lg:pt-24 xsm:pb-16 lg:pb-32">
         <div class="container">
           <h2 class="text-center text-text-primary xsm:text-h2800 xsm:pb-10">Тарифы</h2>
 
-            <ul class="md:grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 xl:gap-12">
+            <ul class="pb-16 md:grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 xl:gap-12">
               
               <li class="pb-10 xsm:mx-auto text-center rounded-2xl bg-bg-gero h-101 w-64">
                 <p class="bg-bg-blue-light rounded-t-2xl text-t18 text-text-secondary xsm:px-7 xsm:py-4">1 сесия</p> <br>
@@ -156,8 +156,52 @@
 
             </ul>
 
+            <form class=" text-center pb-10"  action="https://echo.htmlacademy.ru/">
+              <label for="promo"></label>
+              <input class="xsm:px-12 sm:px-12 py-4 lg:px-20 mb-9 border-2 border-text-primary rounded-xl placeholder:text-text-secondary" type="text" id="promo" placeholder="Введите промокод"> <br>
+              <label for="submit"></label>
+              <input class="xsm:px-20 sm:px-20 py-4 lg:px-28 border-2 text-p700 text-white hover:bg-white hover:text-text-primary hover:shadow-none cursor-pointer bg-text-primary border-text-primary rounded-xl shadow-shadow" type="submit" id="submit" value="Отправить">
+            </form>
+
         </div>
       </section>
+
+      <section class="xsm:pb-20 xl:pb-40">
+        <div class="container">
+            <div class="flex xsm:flex-col-reverse xsm:gap-24 2xl:grid 2xl:grid-cols-2 2xl:flex-row 2xl:gap-20">
+              <div class="xsm:text-center 2xl:text-start 2xl:col-end-2">
+                 <h2 class="text-text-primary pb-5 xsm:text-xsmh1 xl:text-h1 ">Оплачивая пакет от 4 сессий</h2>
+                 <p class="text-t600 pb-9">мы дарим доступ к приложению с виртуальным психологом.</p>
+                 <ul class="grid gap-11 text-center">
+                  <li class="flex gap-7 items-center lg:text-start 2xl:text-start">
+                    <img src="./images/galoshka.svg" alt="gal">
+                    <span class="text-t400 text-text-secondary">Прорабатывайте себя с помощью упражнений и аудиопрактик</span>
+                  </li>
+                  <li class="flex gap-7 items-center lg:text-start 2xl:text-start">
+                    <img src="./images/galoshka.svg" alt="gal">
+                    <span class="text-t400 text-text-secondary">Ведите личный дневник настроения и получайте подробную статистику о себе</span>
+                  </li>
+                  <li class="flex gap-7 items-center lg:text-start 2xl:text-start">
+                    <img src="./images/galoshka.svg" alt="gal">
+                    <span class="text-t400 text-text-secondary">Расскажите виртуальному психологу о своих чувствах и он подберет актуальный материал</span>
+                  </li>
+                 </ul>
+              </div>
+
+              <div class="flex justify-center relative">
+                <img class="absolute xsm:pt-16 xsm:right-2 lg:right-28 xl:right-52 2xl:right-2" src="./images/screen-1.svg" alt="screen-1">
+                <img src="./images/screen-2.svg" alt="screen-2">
+              </div>
+            </div>
+
+            <div class="xsm:text-center xsm:pt-10 2xl:text-start">
+              <button class="xsm:px-20 xsm:py-6 border-2 rounded-xl bg-text-primary text-p700 shadow-shadow text-white hover:bg-bg-hero hover:text-text-primary hover:shadow-none hover:border-text-primary">
+                Доступно в App Store
+              </button>
+            </div>
+        </div>
+      </section>
+
     </main>
 
     <footer>
