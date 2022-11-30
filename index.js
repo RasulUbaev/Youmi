@@ -80,6 +80,10 @@ tailwind.config = {
                     lineHeight: '1.5625rem',
                     fontWeight: '400',
                 }],
+                t14: ['0.875rem', {
+                    lineHeight: '1.25rem',
+                    fontWeight: '400',
+                }],
                 
             },
          
