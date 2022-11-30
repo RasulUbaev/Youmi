@@ -56,6 +56,26 @@ tailwind.config = {
                     lineHeight: '1.2rem',
                     fontWeight: '500',
                 }],
+                h800: ['2.5rem', {
+                    lineHeight: '3.25rem',
+                    fontWeight: '800',
+                }],
+                h2800: ['1.9rem', {
+                    lineHeight: '3.25rem',
+                    fontWeight: '800',
+                }],
+                t18: ['1.125rem', {
+                    lineHeight: '1.5625rem',
+                    fontWeight: '500',
+                }],
+                t20: ['1.25rem', {
+                    lineHeight: '1.75rem',
+                    fontWeight: '500',
+                }],
+                t600: ['1.25rem', {
+                    lineHeight: '1.75rem',
+                    fontWeight: '600',
+                }],
                 
             },
          
@@ -80,6 +100,13 @@ tailwind.config = {
             boxShadow: {
                 'shadow': '13px 24px 5px 8px rgba(205, 225, 255, 0.2)',
               },
+
+              width: {
+                '280': '70rem',
+              },
+              height: {
+                '404': '101rem',
+              }
         }
     }
 }
