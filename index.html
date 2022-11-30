@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./index.js"></script>
+    <title>Youmi</title>  
+
+  </head>
+
+  <body class="font-mono">
+
+    <header class="head bg-bg-hero h-20">
+      <div class="container">
+        <nav class="nav h-20 xsm:flex xsm:items-center xsm:justify-between">
+
+          <ul>
+             <li><a href=""> <img src="./images/logo-head.svg" alt="logo"> </a></li>
+          </ul>
+
+          <ul class="xsm:hidden xl:block xl:flex xl:gap-10 " >
+            <li class="xl:hover:text-text-primary"><a href="#">О нас</a></li>
+            <li class="xl:hover:text-text-primary"><a href="#">Тарифы</a></li>
+            <li class="xl:hover:text-text-primary"><a href="#">Психологам </a></li>
+            <li class="xl:hover:text-text-primary"><a href="#">Материалы</a></li>
+          </ul>
+
+          <ul class="xsm:hidden xl:block xl:border-2 xl:px-12 xl:py-2 xl:border-text-primary xl:text-text-primary xl:hover:bg-text-primary xl:hover:text-bg-hero xl:tracking-wide xl:text-btn16 rounded">
+            <li class=""><a href="">Личный кабинет</a></li>
+          </ul>        
+
+          <div class="sm:block xl:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+            </svg>
+          </div>
+
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="main__hero xsm:pt-4 xsm:pb-8 xl:pt-16">
+        <div class="container">
+
+          <div class="xsm:flex xsm:flex-col-reverse xl:flex-row xl:items-center">
+
+            <div class="xsm:text-center xl:text-start xl:w-5/6">
+              <h1 class="xsm:text-xsmh1 xsm:text-text-primary xsm:pb-4 xl:text-h1">Выберите количество сессий, которое вы хотите оплатить. </h1>
+              <p class="xsm:text-xsmp16 xsm:pb-4 xsm:text-text-secondary xl:text-p24 xl:w-4/2 xl:pb-16">Оплачивая пакет от 4 сессий вы получаете доступ к приложению.</p>
+              <button class="xsm:bg-text-primary xsm:text-p700 xsm:tracking-wide xsm:text-bg-hero xsm:px-8 xsm:py-4 xsm:rounded-2xl xsm:shadow-shadow md:px-12 md:py-4 lg:px-16 xl:px-16 xl:py-6 "> Узнать больше </button>
+            </div>
+
+            <div class="xsm:pb-4 ">
+              <img class="w-full" src="./images/hero-foto.png" alt="herofoto">
+            </div>
+
+          </div>
+          <!-- bg-text-primary py-8 px-40 rounded-2xl text-p700 text-white shadow-shadow -->
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <h2>Тарифы</h2>
+
+          <ul>
+            <ul>
+              <li>
+                <p>1 сесия</p> <br>
+                <span>2 900₽</span> <br>
+                <span>за сессию</span> <br>
+                <button>Оплатить <br> 2 900₽</button>
+              </li>
+            </ul>
+          </ul>
+
+        </div>
+      </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+  </body>
+</html>
