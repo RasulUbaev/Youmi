@@ -119,6 +119,16 @@ tailwind.config = {
               backgroundImage: {
                 'bg-round': "url('/images/bground.png')",
               },
+              
+            //   keyframes: {
+            //     fade: {
+            //         '0%': { transform: 'rotateX(-3deg)', opacity: 0 },
+            //         '100%': { transform: 'rotateX(3deg)', opacity: 1 },
+            //     }
+            // },
+            animation: {
+                'fade': 'rotate-1'
+            }
         }
     }
 }
